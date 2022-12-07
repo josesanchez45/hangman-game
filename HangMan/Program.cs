@@ -8,7 +8,7 @@ Console.WriteLine("Welcome to hangman!");
 Console.WriteLine("--------------------------");
 
 Random random = new Random();
-List<String > wordDictionary = new List<String>{"jedi","television", "coding", "hustle","linkedin", "resume", "confused"};
+List<String> wordDictionary = new List<String>{"jedi","television", "coding", "hustle","linkedin", "resume", "confused"};
 int index = random.Next(wordDictionary.Count);
 String randomWord = wordDictionary[index];
 

@@ -48,25 +48,25 @@ namespace HangMan
             else if (wrong == 4)
             {
                 Console.WriteLine("\n+---+");
-                Console.WriteLine("  0   |");
-                Console.WriteLine(" /|\\ |");
-                Console.WriteLine("      |");
+                Console.WriteLine("  0    |");
+                Console.WriteLine(" /|\\  |");
+                Console.WriteLine("       |");
                 Console.WriteLine("    ===");
             }
             else if (wrong == 5)
             {
                 Console.WriteLine("\n+---+");
-                Console.WriteLine("  0   |");
-                Console.WriteLine(" /|\\ |");
-                Console.WriteLine(" /    |");
+                Console.WriteLine("  0    |");
+                Console.WriteLine(" /|\\  |");
+                Console.WriteLine(" /     |");
                 Console.WriteLine("    ===");
             }
             else if (wrong == 6)
             {
                 Console.WriteLine("\n+---+");
-                Console.WriteLine("  0   |");
-                Console.WriteLine(" /|\\ |");
-                Console.WriteLine(" / \\ |");
+                Console.WriteLine("  0    |");
+                Console.WriteLine(" /|\\  |");
+                Console.WriteLine(" / \\  |");
                 Console.WriteLine("    ===");
 
             }
